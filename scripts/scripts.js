@@ -9,10 +9,10 @@ async function getData(chosen_major) {
        var templateText = document.getElementById('majorsTemplate').innerHTML;
        var compiledTemplateText = Handlebars.compile(templateText);
        compiledHtml = compiledTemplateText({ rows: majors });
-       document.getElementById('majorsResults').innerHTML = compiledHtml; 
+       document.getElementById('majorTable').innerHTML = compiledHtml; 
    }
    else {
-       document.querySelector('#majorsResults').innerHTML = "There was an error, or major not found";
+       document.querySelector('#majorTable').innerHTML = "There was an error, or major not found";
    }	
 
 }
