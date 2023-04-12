@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(42, 100, 60);
+    padding-left: 1em;
+}
+
+h1, h3, table {
+    color: rgb(161, 250, 184);
+}
