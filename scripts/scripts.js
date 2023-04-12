@@ -12,7 +12,7 @@ async function getData(chosen_major) {
        document.getElementById('majorsResults').innerHTML = compiledHtml; 
    }
    else {
-       document.querySelector('#majorsResults').innerHTML = "There was an error, or menu items not found";
+       document.querySelector('#majorsResults').innerHTML = "There was an error, or major not found";
    }	
 
 }
